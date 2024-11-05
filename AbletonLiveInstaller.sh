@@ -1,20 +1,12 @@
 #!/bin/bash
 
 #Introduction - Should help the user understand the point of this script
-echo "Installer for Ableton Live 12 and WINE"
-echo "This will install WINE and try to configure Ableton Live 12 for the best possible use."
+echo "Installer for Ableton Live 12"
 
 #Make a directory and CD into it.
 
 mkdir AbletonLive12
 cd AbletonLive12
-
-#Install the basic WINE functions and the necessary software to make WINE fully work along with better software to configure WINE.
-
-echo "This will require a SUDO password at least one time, but it may require a SUDO password some other times too. This part will install WINE and the necessary software."
-sudo sed -i "/\[multilib\]/,/Include/"'s/^#//' /etc/pacman.conf
-sudo pacman -Syyu
-sudo pacman -S wine winetricks zenity curl p7zip
 
 #Let the user select the type of Ableton Live 12 they want. That can be Intro, Standard, or Suite.
 echo "Please select your version of Ableton Live 12."
