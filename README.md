@@ -1,1 +1,1 @@
-The main program mostly works, but the ribbon up top is hidden at first. The way to unhide the ribbon, is to press F12. That'll show the File, Options, and the other buttons. I don't know why it does that, but it does and that's how to fix it. 
+The main program mostly works, but the ribbon up top is hidden at first. The way to unhide the ribbon, is to press F11. That'll show the File, Options, and the other buttons. I don't know why it does that, but it does and that's how to fix it. 
