@@ -1,1 +1,1 @@
-This will take a lot of trial and error, but I'm hoping to make the best possible script to download, install, and configure Ableton Live 12 with WINE correctly. Ableton Live 12 with WINE somewhat works, but the user interface is super glitchy and the buttons in the actual program doesn't work yet.
+The main program mostly works, but the ribbon up top is hidden at first. The way to unhide the ribbon, is to press F12. That'll show the File, Options, and the other buttons. I don't know why it does that, but it does and that's how to fix it. 
